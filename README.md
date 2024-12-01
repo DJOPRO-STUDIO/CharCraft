@@ -72,11 +72,11 @@ Comming Soon !
     "size":[50,50]
 }
 ```
-6. Go to the directory that contains the `charcraft_server.py` File and then open the terminal/cmd at this folder
+5. Go to the directory that contains the `charcraft_server.py` File and then open the terminal/cmd at this folder
 ```
 cd folder/to/the/charcraft_server.py/file
 ```
-4. Then you need to execute the code by doing :
+6. Then you need to execute the code by doing :
 ```
 python3 charcraft_server.py
 ```
