@@ -1,6 +1,8 @@
 # 🧱 CharCraft 🧱
 ### Open-Source, Tiny , Very Lite Minecraft 2D with Characters !
 
+![image](https://github.com/user-attachments/assets/2e58dc13-5ac5-45d9-9ed8-3b376e2c7857)
+
 > [!NOTE]
 > The game control are for AZERTY keyboard, you can change your keyboard settings to an AZERTY so you can play it!
 
