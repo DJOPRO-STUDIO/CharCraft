@@ -48,7 +48,7 @@ sudo python charcraft_server.py
 ## You want to play Online ?
 - There Some IPs of a servers !
 ```
-Comming Soon !
+37.114.46.140:6182
 ```
 ### If you to play online in your own server, This is a Step-by Step guide to show you how !
 1. Download the code `charcraft_server.py` from this Github Repo
