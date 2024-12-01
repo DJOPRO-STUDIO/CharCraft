@@ -9,7 +9,6 @@
 |     | Z |  E | 
 |-----|---|----|
 | Q   | S | D  |
-|--------------|
 - Z = Forward  
 - S = Backward
 - Q = Left     
