@@ -10,6 +10,28 @@
 - Online ? Just host the server in you home with simple steps !
 - Have Fun !
 
+## How to run the game ?
+1. Download the code charcraft.py from this Github Repo
+2. Install Python3 in your system !
+3. Open the terminal / cmd and then execute this command :
+```
+pip install keyboard requests
+```
+4. Then navigate to the Folder that contains the charcraft.py by doing :
+```
+cd folder/to/the/charcraft.py/file
+```
+4. Then you need to execute the code by doing :
+```
+sudo python3 charcraft_server.py
+```
+or (if it didn't work)
+```
+sudo python charcraft_server.py
+```
+> [!NOTE]
+> `sudo` in Linux and MacOS is needed to run the code because the `keyboard` library must have the superuser access.
+
 ## GAME CONTROL KEYS
 
 |     | Z |  E | 
