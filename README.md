@@ -10,8 +10,8 @@
 |-----|---|----|
 | Q   | S | D  |
 |--------------|
-| Z = Forward  |
-| S = Backward |
-| Q = Left     |
-| D = Right    |
-| E = Place a Block |
+- Z = Forward  
+- S = Backward
+- Q = Left     
+- D = Right    
+- E = Place a Block
