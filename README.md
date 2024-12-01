@@ -62,10 +62,8 @@ Comming Soon !
     "size":[X,Y]
 }
 ```
-> [!NOTE]
-> You can modify the `NAME SERVER` `OWNER NAME` `THIS IS A DESCRIPTION` `5000` `X` `Y`
-> For example :
-> ```json
+- You can modify the json like this example :
+```json
 {
     "name":"My Server",
     "owner":"DJOPRO_YT",
@@ -74,7 +72,6 @@ Comming Soon !
     "size":[50,50]
 }
 ```
-
 6. Go to the directory that contains the `charcraft_server.py` File and then open the terminal/cmd at this folder
 ```
 cd folder/to/the/charcraft_server.py/file
