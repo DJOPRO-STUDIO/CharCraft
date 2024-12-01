@@ -11,13 +11,13 @@
 - Have Fun !
 
 ## How to run the game ?
-1. Download the code charcraft.py from this Github Repo
+1. Download the code `charcraft.py` from this Github Repo
 2. Install Python3 in your system !
 3. Open the terminal / cmd and then execute this command :
 ```
 pip install keyboard requests
 ```
-4. Then navigate to the Folder that contains the charcraft.py by doing :
+4. Then navigate to the Folder that contains the `charcraft.py` by doing :
 ```
 cd folder/to/the/charcraft.py/file
 ```
@@ -49,9 +49,33 @@ sudo python charcraft_server.py
 Comming Soon !
 ```
 ### If you to play online in your own server, This is a Step-by Step guide to show you how !
-1. Download the code charcraft_server.py from this Github Repo
+1. Download the code `charcraft_server.py` from this Github Repo
 2. Install Python3 in your system !
-3. Open the terminal / cmd and then execute this command :
+3. Create a File called `config.json` at the same folder that contains the `charcraft_server.py`
+4. Write this text into the `config.json` File:
+```json
+{
+    "name":"NAME SERVER",
+    "owner":"OWNER NAME",
+    "desc":"THIS IS A DESCRIPTION",
+    "port":5000,
+    "size":[X,Y]
+}
+```
+> [!NOTE]
+> You can modify the `NAME SERVER` `OWNER NAME` `THIS IS A DESCRIPTION` `5000` `X` `Y`
+> For example :
+> ```json
+{
+    "name":"My Server",
+    "owner":"DJOPRO_YT",
+    "desc":"This is the best server ever",
+    "port":5000,
+    "size":[50,50]
+}
+```
+
+6. Go to the directory that contains the `charcraft_server.py` File and then open the terminal/cmd at this folder
 ```
 cd folder/to/the/charcraft_server.py/file
 ```
