@@ -127,8 +127,12 @@ def online_game(ip,data):
     global debug
     global char_plr
     cursor_off()
+    clear()
     rq_i = requests.get(f"http://{ip}")
     if rq_i.ok:
+        if data_['size'][0] > x and data_['size'][1] > y:
+            print("[!] UNCOMPATIBLE Screen, Please dezoom your terminal and restart the code for more space!")
+            exit()
         data_ = json.loads(rq_i.text)
         print(" > ---- INFO ABOUT THE SERVER ---- <")
         print(f"| Name : {data_['server_name']}")
@@ -138,7 +142,6 @@ def online_game(ip,data):
         print(f"| Players : {data_['players']}")
         print(f"| Blocks : {data_['blocks']}")
 
-    print(f"SCREEN-SIZE:{x}x{y}")
 
     blocks = json.loads(data)["blocks"]
 
@@ -148,7 +151,7 @@ def online_game(ip,data):
     for plr in json.loads(data)["players"]:
         print(f"\033[{plr[1]};{plr[2]}H{plr[0]}", end="", flush=True)
     
-    time.sleep(1)
+    time.sleep(3)
     clear()
     
     while True:
